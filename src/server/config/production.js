@@ -7,6 +7,6 @@ module.exports =  {
             password: process.env.KNEX_PASSWORD,
             database: process.env.KNEX_DB
         },
-        pool: { min: process.env.KNEX_POOL_MIN, max: process.env.KNEX_POOL_MAX }
+        pool: { min: 0, max: 10 }
     }
 }
