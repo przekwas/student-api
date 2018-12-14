@@ -1,0 +1,30 @@
+{
+  "name": "hip-hop-api",
+  "version": "1.0.0",
+  "description": "demo api with my favorite hip hop albums to help students learn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server/server.js",
+    "start": "node src/server/server.js"
+  },
+  "keywords": [
+    "api",
+    "fun",
+    "students",
+    "learning",
+    "hip",
+    "hop",
+    "albums"
+  ],
+  "author": "Tuna No Crust",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.2",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
