@@ -15,7 +15,7 @@ router.get('/:id?', async (req, res, next) => {
         }
     } else {
         try {
-            let albums = await knex.select().from('HipHop_Albums');
+            let [albums] = await knex.select().from('HipHop_Albums');
             res.send(albums);
         } catch (e) {
             console.log(e);
